@@ -9,12 +9,12 @@
   position: absolute;
   background-color: white;
   height: 90px;
-  width: 89.5px;
-  left: 33%;
-  /* left: 13%; */
+  width: 89.7px;
+  left: 33.05%;
   top: 34.65%;
   border-radius: 23%;
   overflow: hidden;
+  animation: notesAnimation 2s infinite;
 }
 
 .notesHeader {
@@ -44,3 +44,13 @@
   top: 24px;
   height: 2.3px;
 }
+
+@keyframes notesAnimation {
+  10% {filter: brightness(50%);}
+  40% {filter: brightness(100%);}
+  80% {
+    /* height: 1200px;
+    width: 600px; */
+  }
+}
+
