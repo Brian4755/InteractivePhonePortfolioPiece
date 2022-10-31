@@ -1,11 +1,18 @@
+.phoneImageContainer {
+  position: absolute;
+  height: 1284px;
+  width: 640px;
+  background-image: url("https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios13-iphone-xs-home-assistive-touch.png");
+}
+
 .notesContainer {
   position: absolute;
   background-color: white;
   height: 90px;
   width: 89.5px;
-  left: 14.48%;
+  left: 33%;
   /* left: 13%; */
-  top: 63.5%;
+  top: 34.65%;
   border-radius: 23%;
   overflow: hidden;
 }
