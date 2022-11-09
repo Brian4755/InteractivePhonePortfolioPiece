@@ -195,10 +195,10 @@ span::before {
 }
 
 @keyframes notesTitleAnimation {
-  58% {
+  74% {
     opacity: 0;
   }
-  59% {
+  75% {
     opacity: 1;
   }
   100% {
