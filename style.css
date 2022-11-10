@@ -168,9 +168,7 @@
   left: 14%;
   z-index: 50;
   transition: opacity 250ms ease-in;
-  /* margin-top: 500px; */
   font-size: 45px;
-  /* color: aqua; */
   font-weight: 700;
   margin-right: 10%;
 }
@@ -179,7 +177,6 @@ span::after {
   content: '|';
   opacity: 0;
   color: rgb(224, 179, 98);
-  /* animation: cursorAnimation 5s forwards; */
   animation: cursorBlinkAnimation 2.3s infinite;
   animation-delay: 2s;
 }
@@ -188,7 +185,6 @@ span::before {
   content: 'Aspirations';
   opacity: 0;
   color: cornflowerblue;
-  /* animation: cursorAnimation 5s forwards; */
   animation: notesTitleAnimation 2s forwards;
   display: block;
   margin-bottom: 10px;
